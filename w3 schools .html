@@ -1,0 +1,609 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        *{
+            font-family: 'Courier New', Courier, monospace;
+            font-style: normal;
+        }
+        #background{
+            background-color: black;
+            padding: 20px;
+            box-sizing: border-box;
+        }
+        #php{
+            display: inline-block;
+            padding: 2%;
+            margin:2%;
+            background-color: #FFF4A3;
+            width: 40%;
+            text-align: center;
+            border-radius: 5px;
+        }
+        #but{
+            background-color: black;
+            color: azure;
+            border-radius: 50px;
+            width: 120px;
+            height: 30px;
+        }
+        #jquery{
+            display: inline-block;
+            padding: 2%;
+            margin:2%;
+            background-color: violet;
+            width: 40%;
+            text-align: center;
+            border-radius: 5px;
+        }
+        #js{
+            display: inline-block;
+            padding: 2%;
+            margin :2%;
+            background-color: tan;
+            width: 40%;
+            text-align: center;
+            border-radius: 5px;
+        }
+        #c{
+            display: inline-block;
+            padding: 2%;
+            margin :2%;
+            background-color: #96D4D4;
+            width: 40%;
+            text-align: center;
+            border-radius: 5px;
+        }
+
+        #w3{
+            display: inline-block;
+            padding: 2%;
+            margin: 2%;
+            background-color: #E7E9EB;
+            width: 40%;
+            text-align: center;
+            border-radius: 5px;
+        }
+
+        #Bootstrap{
+            display: inline-block;
+            padding: 2%;
+            margin: 2%;
+            background-color: aqua;
+            width: 40%;
+            text-align: center;
+            border-radius: 5px;
+
+        }
+        #cc{
+            display: inline-block;
+            padding: 2%;
+            margin: 2%;
+            background-color: palevioletred;
+            width: 40%;
+            text-align: center;
+            border-radius: 5px;
+        }
+
+        #ccc{
+            display: inline-block;
+            padding: 2%;
+            margin: 2%;
+            background-color: #FFF4A3;
+            width: 40%;
+            text-align: center;
+            border-radius: 5px;
+        }
+
+        #r{
+            display: inline-block;
+            padding: 2%;
+            margin: 2%;
+            background-color: #D9EEE1;
+            width: 16%;
+            text-align: center; 
+            border-radius: 5px;   
+        }
+
+        #kot{
+            display: inline-block;
+            padding: 2%;
+            margin: 2%;
+            background-color: #f3ECEA;
+            width: 15%;
+            text-align: center; 
+            border-radius: 5px;   
+        }
+
+        #node{
+            display: inline-block;
+            padding: 2%;
+            margin: 2%;
+            background-color: #96D4D4;
+            width: 16%;
+            text-align: center; 
+            border-radius: 5px;   
+        }
+
+        #rea{
+            display: inline-block;
+            padding: 2%;
+            margin: 2%;
+            background-color: #FFC0C7;
+            width: 16%;
+            text-align: center;  
+            border-radius: 5px;  
+        }
+
+        #json{
+            display: inline-block;
+            padding: 2%;
+            margin: 2%;
+            background-color: skyblue;
+            width: 16%;
+            text-align: center; 
+            border-radius: 5px;   
+        }
+
+        #vue{
+            display: inline-block;
+            padding: 2%;
+            margin: 2%;
+            background-color: #D9EEE1;
+            width: 15%;
+            text-align: center; 
+            border-radius: 5px;   
+        }
+        #my{
+            display: inline-block;
+            padding: 2%;
+            margin: 2%;
+            background-color: #f3ECEA;
+            width: 16%;
+            text-align: center; 
+            border-radius: 5px;   
+        }
+
+        #xml{
+            display: inline-block;
+            padding: 2%;
+            margin: 2%;
+            background-color: #96D4D4;
+            width: 16%;
+            text-align: center;    
+            border-radius: 5px;
+        }
+
+        #sass{
+            display: inline-block;
+            padding: 2%;
+            margin: 2%;
+            background-color: olivedrab;
+            width: 16%;
+            text-align: center;    
+            border-radius: 5px;
+        }
+
+        #icon{
+            display: inline-block;
+            padding: 2%;
+            margin: 2%;
+           background-color: skyblue;
+            width: 15%;
+            text-align: center;    
+            border-radius: 5px;
+        }
+
+        #rwd{
+            display: inline-block;
+            padding: 2%;
+            margin: 2%;
+            background-color: #D9EEE1;
+            width: 16%;
+            text-align: center;    
+            border-radius: 5px;
+        }
+
+        #graphics{
+            display: inline-block;
+            padding: 2%;
+            margin: 2%;
+            background-color: #f3ECEA;
+            width: 16%;
+            text-align: center;    
+            border-radius: 5px;
+        }
+
+        #svg{
+            display: inline-block;
+            padding: 2%;
+            margin: 2%;
+            background-color: aliceblue;
+            width: 16%;
+            text-align: center;    
+            border-radius: 5px;
+        }
+
+        #canvas{
+            display: inline-block;
+            padding: 2%;
+            margin: 2%;
+            background-color: olivedrab;
+            width: 15%;
+            text-align: center;    
+            border-radius: 5px;
+        }
+
+        
+        #rasp{
+            display: inline-block;
+            padding: 2%;
+            margin: 2%;
+            background-color: skyblue;
+            width: 16%;
+            text-align: center;    
+            border-radius: 5px;
+        }
+
+        
+        #cyber{
+            display: inline-block;
+            padding: 2%;
+            margin: 2%;
+            background-color: #D9EEE1;
+            width: 16%;
+            text-align: center;    
+            border-radius: 5px;
+        }
+
+
+
+        #colors{
+            display: inline-block;
+            padding: 2%;
+            margin: 2%;
+            background-color: #FFC0C7;
+            width: 16%;
+            text-align: center;    
+            border-radius: 5px;
+        }
+
+        #git{
+            display: inline-block;
+            padding: 2%;
+            margin: 2%;
+            background-color: aliceblue;
+            width: 15%;
+            text-align: center;    
+            border-radius: 5px;
+        }
+ 
+        #mat{
+            display: inline-block;
+            padding: 2%;
+            margin: 2%;
+            background-color: olivedrab;
+            width: 16%;
+            text-align: center;    
+            border-radius: 5px;
+        }
+
+        #numpay{
+            display: inline-block;
+            padding: 2%;
+            margin: 2%;
+            background-color: skyblue;
+            width: 16%;
+            text-align: center;    
+            border-radius: 5px;
+        }
+
+        #panda{
+            display: inline-block;
+            padding: 2%;
+            margin: 2%;
+            background-color: #FFF4A3;
+            width: 16%;
+            text-align: center;    
+            border-radius: 5px;
+        }
+
+        #scipy{
+            display: inline-block;
+            padding: 2%;
+            margin: 2%;
+            background-color: #FFC0C7;
+            width: 16%;
+            text-align: center;    
+            border-radius: 5px;
+        }
+
+        #asp{
+            display: inline-block;
+            padding: 2%;
+            margin: 2%;
+            background-color: aliceblue;
+            width: 16%;
+            text-align: center;    
+            border-radius: 5px;
+        }
+
+        #angular{
+            display: inline-block;
+            padding: 2%;
+            margin: 2%;
+            background-color: olivedrab;
+            width: 16%;
+            text-align: center;    
+            border-radius: 5px;
+        }
+
+        #appmi{
+            display: inline-block;
+            padding: 2%;
+            margin: 2%;
+            background-color: lightgoldenrodyellow;
+            width: 16%;
+            text-align: center;    
+            border-radius: 5px;
+        }
+
+        #go{
+            display: inline-block;
+            padding: 2%;
+            margin: 2%;
+            background-color: #FFF4A3;
+            width: 16%;
+            text-align: center;    
+            border-radius: 5px;
+        }
+
+        #script{
+            display: inline-block;
+            padding: 2%;
+            margin: 2%;
+            background-color: #FFC0C7;
+            width: 16%;
+            text-align: center;    
+            border-radius: 5px;
+        }
+
+        #django{
+            display: inline-block;
+            padding: 2%;
+            margin: 2%;
+            background-color: aliceblue;
+            width: 16%;
+            text-align: center;    
+            border-radius: 5px;
+        }
+
+
+        #excel{
+            display: inline-block;
+            padding: 2%;
+            margin: 2%;
+            background-color: #96D4D4;
+            width: 41%;
+            text-align: center;
+            border-radius: 5px;
+        }
+
+        #dsa{
+            display: inline-block;
+            padding: 2%;
+            margin: 2%;
+            background-color: #FFC0C7;
+            width: 41%;
+            text-align: center;
+            border-radius: 5px;
+        }
+
+        #machine{
+            display: inline-block;
+            padding: 2%;
+            margin: 2%;
+            background-color: #FFF4A3;
+            width: 41%;
+            text-align: center;
+            border-radius: 5px;
+        }
+
+        #art{
+            display: inline-block;
+            padding: 2%;
+            margin: 2%;
+            background-color: #D9EEE1;
+            width: 41%;
+            text-align: center;
+            border-radius: 5px;
+        }
+
+
+
+
+
+    </style>
+</head>
+
+<body>
+  <div id="background">
+    <div id="php" >
+    <h1>PHP</h1>
+    <h4>A web server programming language</h4>
+    <button id="but">Learn PHP</button>
+
+    </div>
+        <div id="jquery">
+            <h1>jQuery</h1>
+            <h4>A JS library for developing web pages</h4>
+            <button id="but">Learn PHP</button>
+    </div>
+
+    <div id="js">
+        <h1>JAVA</h1>
+        <p>We are learning about Java-Script</p>
+        <button id="but">Learn Java</button>
+    </div>
+
+    <div id="c">
+        <h1>C++</h1>
+        <p>A programming language</p>
+        <button id="but">Learn C++</button>
+    </div>
+
+    <div id="w3">
+        <h1>W3.CSS</h1>
+        <p>A CSS framework for faster and better responsive web pages</p>
+        <button id="but">Learn w3.css</button>
+    </div>
+
+    <div id="Bootstrap">
+        <h1>BOOTSTRAP</h1>
+        <p>A CSS framework for designing better web pages</p>
+        <button id="but" style="width:auto">Learn Bootstrap</button>
+    </div>
+
+    <div id="cc">
+        <h1>C</h1>
+    </div>
+
+    <div id="ccc">
+        <h1>C#</h1>
+    </div>
+
+    <div id="r">
+        <h1>R</h1>
+    </div>
+
+    <div id="kot">
+        <h1>Kotlin</h1>
+    </div>
+
+    <div id="node">
+        <h1>Node.Js</h1>
+    </div>
+
+    <div id="rea">
+        <h1>React</h1>
+    </div>
+
+    <div id="json">
+        <h1>JSON</h1>
+    </div>
+
+    <div id="vue">
+        <h1>VUE</h1>
+    </div>
+
+    <div id="my">
+        <h1>MY SQL</h1>
+    </div>
+
+    <div id="xml">
+        <h1>XML</h1>
+    </div>
+
+    <div id="sass">
+        <h1>SASS</h1>
+    </div>
+
+    <div id="icon">
+        <h1>ICONS</h1>
+    </div>
+
+    <div id="rwd">
+        <h1>RWD</h1>
+    </div>
+
+    <div id="graphics">
+        <h1>Graphics</h1>
+    </div>
+
+    <div id="svg">
+        <h1>SVG</h1>
+    </div>
+
+    <div id="canvas">
+        <h1>Canvas</h1>
+    </div>
+
+    <div id="rasp">
+        <h1>Rasspberry Pi</h1>
+    </div>
+
+    <div id="cyber">
+        <h1>Cyber</h1>
+    </div>
+
+    <div id="colors">
+        <h1>Colors</h1>
+    </div>
+
+    <div id="git">
+        <h1>GIT</h1>
+    </div>
+
+    <div id="mat">
+        <h1>Matplotlib</h1>
+    </div>
+
+    <div id="numpay">
+        <h1>Numpay</h1>
+    </div>
+
+    <div id="panda">
+        <h1>Pandas</h1>
+    </div>
+
+    <div id="scipy">
+        <h1>Scipy</h1>
+    </div>
+
+    <div id="asp">
+        <h1>ASP</h1>
+    </div>
+
+    <div id="angular">
+        <h1>AngularJS</h1>
+    </div>
+
+    <div id="appmi">
+        <h1>APPml</h1>
+    </div>
+
+    <div id="go">
+        <h1>GO</h1>
+    </div>
+
+    <div id="script">
+        <h1>TypeScript</h1>
+    </div>
+
+    <div id="django">
+        <h1>Django</h1>
+    </div>
+
+    <div id="excel">
+        <h1>Excel</h1>
+    </div>
+
+    <div id="dsa">
+        <h1>DSA</h1>
+    </div>
+
+    <div id="machine">
+        <h1>Machine Learning</h1>
+    </div>
+
+    <div id="art">
+        <h1>Artificial Intelligence</h1>
+    </div>
+
+  </div>
+</body>
+</html>
