@@ -1,0 +1,527 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        *{
+            font-family: 'Courier New', Courier, monospace;
+            font-style: normal;
+        }
+        #background{
+            background-color: black;
+            padding: 20px;
+            box-sizing: border-box;
+        }
+
+
+        #r{
+            display: inline-block;
+            padding: 2%;
+            margin: 2%;
+            background-color: #D9EEE1;
+            width: 16%;
+            text-align: center; 
+            border-radius: 5px;  
+            text-decoration: 5px wavy indianred underline ; 
+        }
+
+        #kot{
+            display: inline-block;
+            padding: 2%;
+            margin: 2%;
+            background-color: #f3ECEA;
+            width: 15%;
+            text-align: center; 
+            border-radius: 5px;   
+            text-decoration: 5px wavy indianred underline ; 
+        }
+
+        #node{
+            display: inline-block;
+            padding: 2%;
+            margin: 2%;
+            background-color: #96D4D4;
+            width: 16%;
+            text-align: center; 
+            border-radius: 5px;
+            text-decoration: 5px wavy indianred underline ;    
+        }
+
+        #rea{
+            display: inline-block;
+            padding: 2%;
+            margin: 2%;
+            background-color: #FFC0C7;
+            width: 16%;
+            text-align: center;  
+            border-radius: 5px; 
+            text-decoration: 5px wavy indianred underline ;  
+        }
+
+        #json{
+            display: inline-block;
+            padding: 2%;
+            margin: 2%;
+            background-color: skyblue;
+            width: 16%;
+            text-align: center; 
+            border-radius: 5px;   
+            text-decoration: 5px dashed indianred underline ;  
+        }
+
+        #vue{
+            display: inline-block;
+            padding: 2%;
+            margin: 2%;
+            background-color: #D9EEE1;
+            width: 15%;
+            text-align: center; 
+            border-radius: 5px;
+            text-decoration: 5px dashed indianred underline ;   
+        }
+        #my{
+            display: inline-block;
+            padding: 2%;
+            margin: 2%;
+            background-color: #f3ECEA;
+            width: 16%;
+            text-align: center; 
+            border-radius: 5px;  
+            text-decoration: 5px dashed indianred underline ; 
+        }
+
+        #xml{
+            display: inline-block;
+            padding: 2%;
+            margin: 2%;
+            background-color: #96D4D4;
+            width: 16%;
+            text-align: center;    
+            border-radius: 5px;
+            text-decoration: 5px dashed indianred underline ;
+        }
+
+        #sass{
+            display: inline-block;
+            padding: 2%;
+            margin: 2%;
+            background-color: olivedrab;
+            width: 16%;
+            text-align: center;    
+            border-radius: 5px;
+            text-decoration: 5px double indianred underline ;
+        }
+
+        #icon{
+            display: inline-block;
+            padding: 2%;
+            margin: 2%;
+           background-color: skyblue;
+            width: 15%;
+            text-align: center;    
+            border-radius: 5px;
+            text-decoration: 5px double indianred underline ;
+        }
+
+        #rwd{
+            display: inline-block;
+            padding: 2%;
+            margin: 2%;
+            background-color: #D9EEE1;
+            width: 16%;
+            text-align: center;    
+            border-radius: 5px;
+            text-decoration: 5px double indianred underline ;
+        }
+
+        #graphics{
+            display: inline-block;
+            padding: 2%;
+            margin: 2%;
+            background-color: #f3ECEA;
+            width: 16%;
+            text-align: center;    
+            border-radius: 5px;
+            text-decoration: 5px double indianred underline ;
+        }
+
+        #svg{
+            display: inline-block;
+            padding: 2%;
+            margin: 2%;
+            background-color: aliceblue;
+            width: 16%;
+            text-align: center;    
+            border-radius: 5px;
+            text-decoration: 5px dotted indianred underline ;
+        }
+
+        #canvas{
+            display: inline-block;
+            padding: 2%;
+            margin: 2%;
+            background-color: olivedrab;
+            width: 15%;
+            text-align: center;    
+            border-radius: 5px;
+            text-decoration: 5px dotted indianred underline ;
+        }
+
+        
+        #rasp{
+            display: inline-block;
+            padding: 2%;
+            margin: 2%;
+            background-color: skyblue;
+            width: 16%;
+            text-align: center;    
+            border-radius: 5px;
+            text-decoration: 5px dotted indianred underline ;
+        }
+
+        
+        #cyber{
+            display: inline-block;
+            padding: 2%;
+            margin: 2%;
+            background-color: #D9EEE1;
+            width: 16%;
+            text-align: center;    
+            border-radius: 5px;
+            text-decoration: 5px dotted indianred underline ;
+        }
+
+
+
+        #colors{
+            display: inline-block;
+            padding: 2%;
+            margin: 2%;
+            background-color: #FFC0C7;
+            width: 16%;
+            text-align: center;    
+            border-radius: 5px;
+            text-decoration: 5px dotted indianred overline ;
+        }
+
+        #git{
+            display: inline-block;
+            padding: 2%;
+            margin: 2%;
+            background-color: aliceblue;
+            width: 15%;
+            text-align: center;    
+            border-radius: 5px;
+            text-decoration: 5px dotted indianred overline ;
+        }
+ 
+        #mat{
+            display: inline-block;
+            padding: 2%;
+            margin: 2%;
+            background-color: olivedrab;
+            width: 16%;
+            text-align: center;    
+            border-radius: 5px;
+            text-decoration: 5px dotted indianred overline ;
+        }
+
+        #numpay{
+            display: inline-block;
+            padding: 2%;
+            margin: 2%;
+            background-color: skyblue;
+            width: 16%;
+            text-align: center;    
+            border-radius: 5px;
+            text-decoration: 5px dotted indianred overline ;
+        }
+
+        #panda{
+            display: inline-block;
+            padding: 2%;
+            margin: 2%;
+            background-color: #FFF4A3;
+            width: 16%;
+            text-align: center;    
+            border-radius: 5px;
+            text-decoration: 5px wavy indianred overline ;
+        }
+
+        #scipy{
+            display: inline-block;
+            padding: 2%;
+            margin: 2%;
+            background-color: #FFC0C7;
+            width: 16%;
+            text-align: center;    
+            border-radius: 5px;
+            text-decoration: 5px wavy indianred overline ;
+        }
+
+        #asp{
+            display: inline-block;
+            padding: 2%;
+            margin: 2%;
+            background-color: aliceblue;
+            width: 16%;
+            text-align: center;    
+            border-radius: 5px;
+            text-decoration: 5px wavy indianred overline ;
+        }
+
+        #angular{
+            display: inline-block;
+            padding: 2%;
+            margin: 2%;
+            background-color: olivedrab;
+            width: 16%;
+            text-align: center;    
+            border-radius: 5px;
+            text-decoration: 5px wavy indianred overline ;
+        }
+
+        #appmi{
+            display: inline-block;
+            padding: 2%;
+            margin: 2%;
+            background-color: lightgoldenrodyellow;
+            width: 16%;
+            text-align: center;    
+            border-radius: 5px;
+            text-decoration: 5px dashed indianred overline ;
+        }
+
+        #go{
+            display: inline-block;
+            padding: 2%;
+            margin: 2%;
+            background-color: #FFF4A3;
+            width: 16%;
+            text-align: center;    
+            border-radius: 5px;
+            text-decoration: 5px dashed indianred overline ;
+        }
+
+        #script{
+            display: inline-block;
+            padding: 2%;
+            margin: 2%;
+            background-color: #FFC0C7;
+            width: 16%;
+            text-align: center;    
+            border-radius: 5px;
+            text-decoration-line: overline;
+        }
+
+        #django{
+            display: inline-block;
+            padding: 2%;
+            margin: 2%;
+            background-color: aliceblue;
+            width: 16%;
+            text-align: center;    
+            border-radius: 5px;
+            text-decoration-line: overline;
+        }
+
+
+        #excel{
+            display: inline-block;
+            padding: 2%;
+            margin: 2%;
+            background-color: #96D4D4;
+            width: 41%;
+            text-align: center;
+            border-radius: 5px;
+            text-decoration-line: line-through;
+        }
+
+        #dsa{
+            display: inline-block;
+            padding: 2%;
+            margin: 2%;
+            background-color: #FFC0C7;
+            width: 41%;
+            text-align: center;
+            border-radius: 5px;
+            text-decoration-line: line-through;
+        }
+
+        #machine{
+            display: inline-block;
+            padding: 2%;
+            margin: 2%;
+            background-color: #FFF4A3;
+            width: 41%;
+            text-align: center;
+            border-radius: 5px;
+            text-decoration-line: underline;
+        }
+
+        #art{
+            display: inline-block;
+            padding: 2%;
+            margin: 2%;
+            background-color: #D9EEE1;
+            width: 41%;
+            text-align: center;
+            border-radius: 5px;
+            text-decoration-line: underline;
+        }
+
+
+
+
+
+    </style>
+</head>
+
+<body>
+    <br><marquee behavior="" direction="right"><h1 style="color: orangered;">W3.SCHOOLS PAGE</h1></marquee>
+  <div id="background">
+    <div id="php" >
+   
+
+    <div id="cc">
+        <h1>C</h1>
+    </div>
+
+    <div id="ccc">
+        <h1>C#</h1>
+    </div>
+
+    <div id="r">
+        <h1>R</h1>
+    </div>
+
+    <div id="kot">
+        <h1>Kotlin</h1>
+    </div>
+
+    <div id="node">
+        <h1>Node.Js</h1>
+    </div>
+
+    <div id="rea">
+        <h1>React</h1>
+    </div>
+
+    <div id="json">
+        <h1>JSON</h1>
+    </div>
+
+    <div id="vue">
+        <h1>VUE</h1>
+    </div>
+
+    <div id="my">
+        <h1>MY SQL</h1>
+    </div>
+
+    <div id="xml">
+        <h1>XML</h1>
+    </div>
+
+    <div id="sass">
+        <h1>SASS</h1>
+    </div>
+
+    <div id="icon">
+        <h1>ICONS</h1>
+    </div>
+
+    <div id="rwd">
+        <h1>RWD</h1>
+    </div>
+
+    <div id="graphics">
+        <h1>Graphics</h1>
+    </div>
+
+    <div id="svg">
+        <h1>SVG</h1>
+    </div>
+
+    <div id="canvas">
+        <h1>Canvas</h1>
+    </div>
+
+    <div id="rasp">
+        <h1>Rasspberry</h1>
+    </div>
+
+    <div id="cyber">
+        <h1>Cyber</h1>
+    </div>
+
+    <div id="colors">
+        <h1>Colors</h1>
+    </div>
+
+    <div id="git">
+        <h1>GIT</h1>
+    </div>
+
+    <div id="mat">
+        <h1>Matplotlib</h1>
+    </div>
+
+    <div id="numpay">
+        <h1>Numpay</h1>
+    </div>
+
+    <div id="panda">
+        <h1>Pandas</h1>
+    </div>
+
+    <div id="scipy">
+        <h1>Scipy</h1>
+    </div>
+
+    <div id="asp">
+        <h1>ASP</h1>
+    </div>
+
+    <div id="angular">
+        <h1>AngularJS</h1>
+    </div>
+
+    <div id="appmi">
+        <h1>APPml</h1>
+    </div>
+
+    <div id="go">
+        <h1>GO</h1>
+    </div>
+
+    <div id="script">
+        <h1>TypeScript</h1>
+    </div>
+
+    <div id="django">
+        <h1>Django</h1>
+    </div>
+
+    <div id="excel">
+        <h1>Excel</h1>
+    </div>
+
+    <div id="dsa">
+        <h1>DSA</h1>
+    </div>
+
+    <div id="machine">
+        <h1>Machine Learning</h1>
+    </div>
+
+    <div id="art">
+        <h1>Artificial Intelligence</h1>
+    </div>
+
+  </div>
+</body>
+</html>
