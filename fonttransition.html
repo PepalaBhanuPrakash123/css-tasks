@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+    <style>
+        .class{
+            border: 1px solid;
+            display: inline-block;
+            padding: 30px;
+            margin: 20px;
+            border-radius: 5px;
+        }
+        #ele1{
+            box-shadow: 3px 2px 10px rgb(232, 134, 43) ;
+
+
+        }
+        #ele1:hover{
+            font-family: cursive;
+            transform:translateX(50px);
+           transition-property: all;
+           transition-duration: 2s;
+  
+        }
+        #ele2{
+            box-shadow: 3px 2px 10px rgb(107, 185, 221) ;
+        }
+        #ele2:hover{
+            font-family:"Lora", serif;;
+            transform:scale(1.4);
+            transition-property: all;
+           transition-duration: 4s;
+  
+        }
+        #ele3{
+            box-shadow: 3px 2px 10px rgb(189, 5, 67) ;
+
+        }
+        #ele3:hover{
+            font-family:monospace;
+            transform:translateY(50px);
+            transition-property: all;
+           transition-duration: 2s;
+           transition-timing-function: ease;
+  
+        }
+        #ele4{
+            box-shadow: 3px 2px 10px rgb(208, 44, 44) ;
+
+        }
+        #ele4:hover{
+            font-family:'Courier New', Courier, monospace;
+            transform:scale(0.4);
+            transition-property: all;
+           transition-duration: 2s;
+           transition-timing-function: ease-in;
+        }
+        #ele5{
+            box-shadow: 3px 2px 10px rgb(61, 201, 34) ;
+
+        }
+        #ele5:hover{
+            font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            transform: rotate(60deg);
+            transition-property: all;
+           transition-duration: 2s;
+           transition-timing-function: ease;
+        }
+        #ele6{
+            box-shadow: 3px 2px 10px rgb(244, 123, 1) ;
+
+        }
+        #ele6:hover{
+            font-family:Verdana, Geneva, Tahoma, sans-serif;
+            transform: rotate(90deg);
+            transition-property: all;
+           transition-duration: 2s;
+           transition-timing-function: ease-in-out;
+        }
+        
+        #ele7{
+            box-shadow: 3px 2px 10px rgb(209, 230, 72) ;
+
+        }
+        #ele7:hover{
+            font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            transform:rotateX(90deg);
+            transition-property: all;
+           transition-duration: 2s;
+           transition-timing-function:ease-out;
+        }
+        #ele8{
+            box-shadow: 3px 2px 10px rgb(216, 135, 222) ;
+
+        }
+        #ele8:hover{
+            font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            transform:rotateX(180deg);
+            transition-property: all;
+           transition-duration: 2s;
+           transition-timing-function: ease;
+        }
+        #ele9{
+            box-shadow: 3px 2px 10px rgb(255, 157, 9) ;
+
+        }
+        #ele9:hover{
+            font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            transform: skew(60deg);
+            transition-property: all;
+           transition-duration: 2s;
+           transition-timing-function:ease-in-out
+        }
+        #ele10{
+            box-shadow: 3px 2px 10px rgb(16, 255, 231) ;
+
+        }
+        #ele10:hover{
+            font-family:Arial, Helvetica, sans-serif;
+            transform: skewX(60deg);
+            transition-property: all;
+           transition-duration: 2s;
+           transition-timing-function:ease;
+        }
+        #ele11{
+            box-shadow: 3px 2px 10px burlywood ;
+
+        }
+        #ele11:hover{
+            font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            transform: skewY(60deg);
+            transition-property: all;
+           transition-duration: 2s;
+           transition-timing-function: ease-in;
+        }
+        #ele12{
+            box-shadow: 3px 2px 10px rgb(15, 20, 4) ;
+
+        }
+        #ele12:hover{
+            font-family:fantasy;
+            transform: translateX(-50px);
+            transition-property: all;
+           transition-duration: 2s;
+           transition-timing-function: ease-in-out;
+        }
+        #ele13{
+            box-shadow: 3px 2px 10px rgb(177, 222, 135);
+
+        }
+        #ele13:hover{
+            font-family:Verdana, Geneva, Tahoma, sans-serif;
+            transform: translateY(-90px);
+            transition-property: all;
+           transition-duration: 2s;
+           transition-timing-function: ease-out;
+        }
+        #ele14{
+            box-shadow: 3px 2px 10px rgb(243, 26, 26) ;
+
+        }
+        #ele14:hover{
+            font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            transform:scaleX(1.8) ;
+            transition-property: all;
+           transition-duration: 2s;
+           transition-timing-function: ease;
+        }
+        #ele15{
+            box-shadow: 3px 2px 10px rgb(216, 135, 222) ;
+
+        }
+        #ele15:hover{
+            font-family:Arial, Helvetica, sans-serif;
+            transform:scaleY(1.8) ;
+            transition-property: all;
+           transition-duration: 2s;
+           transition-timing-function: ease;
+           transition-delay: 2s;
+        }
+        #ele16{
+            box-shadow: 3px 2px 10px rgb(255, 247, 30) ;
+
+        }
+        #ele16:hover{
+            font-family:sans-serif;
+            transform:rotate(180deg);
+            transition-property: all;
+           transition-duration: 2s;
+           transition-timing-function: ease-in-out;
+           transition-delay: 1s;
+  
+        }
+        #ele17{
+            box-shadow: 3px 2px 10px burlywood ;
+
+        }
+        #ele17:hover{
+            font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            transform: skewY(90deg);
+            transition-property: all;
+           transition-duration: 2s;
+           transition-timing-function:ease-out;
+           
+        }
+        #ele18{
+            box-shadow: 3px 2px 10px rgb(17, 255, 88) ;
+
+        }
+        #ele18:hover{
+            font-family:"Lora", serif;
+            transform: scale(2);
+            transition-property: all;
+           transition-duration: 2s;
+           transition-timing-function: ease;
+           transition-delay: 1s;
+        }
+        #ele19{
+            box-shadow: 3px 2px 10px rgb(255, 59, 163) ;
+
+        }
+        #ele19:hover{
+            font-family:Merriweather;
+            transform: translate(30px,10px);
+            transition-property: all;
+           transition-duration: 2s;
+           transition-timing-function: ease-out;
+        }
+        #ele20{
+            box-shadow: 3px 2px 10px rgb(46, 89, 230) ;
+
+        }
+        #ele20:hover{
+            font-family:'Courier New', Courier, monospace;
+            transform: rotateY(120deg);
+            transition-property: all;
+           transition-duration: 2s;
+           transition-timing-function: ease-in-out;
+           transition-delay: 1s;
+        }
+
+      
+
+
+       
+
+    </style>
+   
+</head>
+<body>
+    <h1 align="center" style="background-color: rgb(228, 231, 130); width: 100%;">Using Transition Properties</h1>
+    <div class="class" id="ele1">Cursive</div>
+    <div class="class" id="ele2">Lora</div>
+    <div class="class" id="ele3">Moonspace</div>
+    <div class="class" id="ele4">Courier</div>
+    <div class="class" id="ele5">Gill Sans</div>
+    <div class="class" id="ele6">Geneva</div>
+    <div class="class" id="ele7">Cambria</div>
+    <div class="class" id="ele8">Tahoma</div>
+    <div class="class" id="ele9">Segoe</div>
+    <div class="class" id="ele10">Arial</div>
+    <div class="class" id="ele11">Cochin</div>
+    <div class="class" id="ele12">fantasy</div>
+    <div class="class" id="ele13">Verdana</div>
+    <div class="class" id="ele14">Impact</div>
+    <div class="class" id="ele15">helvetivca</div>
+    <div class="class" id="ele16">Sans serif</div>
+    <div class="class" id="ele17">Gill sans</div>
+    <div class="class" id="ele18">serif</div>
+    <div class="class" id="ele19">Merriweather</div>
+    <div class="class" id="ele20">Bebas Neue</div>
+    
+</body>
+</html>
